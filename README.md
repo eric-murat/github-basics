@@ -7,6 +7,10 @@ Commandes de bases pour Github
 # Création d'un repo sur github.com
 
 # SSH
+Sources : 
+- https://syntaxbytetutorials.com/add-a-github-ssh-key-on-windows/
+- https://www.youtube.com/watch?v=WgZIv5HI44o
+
 Méthode à suivre pour ajouter une clé SSH à github :
 1. Se placer dans D:\dev puis clic droit/Git Bash Here
 2. Générer la clé SSH publique : dans Git Bash, saisir :
@@ -15,7 +19,7 @@ ssh-keygen -t rsa -b 4096 -C "emurat@free.fr"
 ```
 Taper Entrée
 - Saisir une PassPhrase
-- Valider en resaisissant la PassPhrase
+- Valider en resaisissant la PassPhrase  
 La clé publique C:\Users\33619\.ssh\id_rsa.pub a été générée.
 3. Ajouter la clé SSH au référentiel :
 - Lancer l'agent SSH :
@@ -36,7 +40,7 @@ clip < ~/.ssh/id_rsa.pub
 - Profile / Settings / SSH and GPG keys
 - Cliquer sur "New SSH key"
 - Saisir :  
-  Title : Portable ASUS VivoBook 17
+  Title : Portable ASUS VivoBook 17  
   Key : CTRL-V
 - Valider en cliquant sur "Add SSH key"
 
