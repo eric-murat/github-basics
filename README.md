@@ -1,4 +1,3 @@
-# github-basics
 Commandes de bases pour Github
 
 # Installation d'un client Git
@@ -69,8 +68,6 @@ git commit -m "Ajout de Github Cheat Sheet"
 ```
 git push -u origin main
 ```
-
->> SSH !!!
 
 
 
