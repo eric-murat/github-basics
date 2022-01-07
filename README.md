@@ -72,6 +72,7 @@ git commit -m "Ajout de Github Cheat Sheet"
 ```
 git push -u origin main
 ```
+- Valider en saisissant la PassPhrase créée précédemment
 
 
 
