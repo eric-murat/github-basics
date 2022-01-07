@@ -12,7 +12,7 @@ Sources :
 - https://www.youtube.com/watch?v=WgZIv5HI44o
 
 Méthode à suivre pour ajouter une clé SSH à github :
-1. Se placer dans D:\dev puis clic droit/Git Bash Here
+1. Se placer dans `D:\dev` puis clic droit/Git Bash Here
 2. Générer la clé SSH publique : dans Git Bash, saisir :
 ```
 ssh-keygen -t rsa -b 4096 -C "emurat@free.fr"
@@ -48,14 +48,14 @@ clip < ~/.ssh/id_rsa.pub
 PREALABLE: un repo doit avoir été créé sur github.com
 * Depuis github.com sur son repo (par exemple eric-murat/github basics) :
 - Bouton "Code" / Clone / SSH copier l'adresse SSH du repo dans le presse-papier
-* Se placer sur son répertoire de Dev, par exemple D:\dev
+* Se placer sur son répertoire de Dev, par exemple `D:\dev`
 * Faire un clic droit / Git Bash Here
 * Cloner le repo distant :
 ```
 git clone git@github.com:eric-murat/github-basics.git
 ```
-- Valider l'authenticity en saisissant : yes
-* Copier ses fichiers locaux dans le répertoire D:\dev\github-basics qui vient d'être créé
+- Valider l'authenticity en saisissant : `yes`
+* Copier ses fichiers locaux dans le répertoire `D:\dev\github-basics` qui vient d'être créé
 * Au niveau de Git Bash, se placer dans le nouveau répertoire :
 ```
 cd github-basics
